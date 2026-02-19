@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://via.placeholder.com/1200x400/0A2E35/D4A843?text=Ramadan+Timings+%E2%98%AA+Nepal" alt="Ramadan Timings Banner"/>
+  <img src="assets/Banner.png" alt="Ramadan Timings Banner"/>
 </p>
+
 
 <h1 align="center">☪ Ramadan Timings – Nepal 🇳🇵</h1>
 
