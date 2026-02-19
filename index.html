@@ -600,11 +600,45 @@ function toastMsg(msg,err=false){
 //  DEFAULT DATA — MIRCHAIYA, NEPAL
 //  Ramadan 1446 AH ≈ Feb 19 – Mar 20, 2026
 // ══════════════════════════════════════════════════════
-const BASE_SEHRI='04:42', BASE_IFTAR='18:14';
-const MIRCH_DAYS = Array.from({length:30},(_,i)=>({
-  sehri: addMin(BASE_SEHRI,-i),
-  iftar: addMin(BASE_IFTAR, i)
-}));
+// const BASE_SEHRI='04:42', BASE_IFTAR='18:14';
+// const MIRCH_DAYS = Array.from({length:30},(_,i)=>({
+//   sehri: addMin(BASE_SEHRI,-i),
+//   iftar: addMin(BASE_IFTAR, i)
+// }));
+
+const MIRCH_DAYS = [
+  { sehri:'05:15', iftar:'17:51' }, // Day 1
+  { sehri:'05:15', iftar:'17:52' }, // Day 2
+  { sehri:'05:12', iftar:'17:53' }, // Day 3
+  { sehri:'05:10', iftar:'17:54' }, // Day 4
+  { sehri:'05:09', iftar:'17:55' }, // Day 5
+  { sehri:'05:07', iftar:'17:56' }, // Day 6
+  { sehri:'05:06', iftar:'17:57' }, // Day 7
+  { sehri:'05:05', iftar:'17:58' }, // Day 8
+  { sehri:'05:03', iftar:'17:59' }, // Day 9
+  { sehri:'05:01', iftar:'18:00' }, // Day 10
+  { sehri:'04:59', iftar:'18:01' }, // Day 11
+  { sehri:'04:58', iftar:'18:02' }, // Day 12
+  { sehri:'04:56', iftar:'18:03' }, // Day 13
+  { sehri:'04:54', iftar:'18:04' }, // Day 14
+  { sehri:'04:52', iftar:'18:05' }, // Day 15
+  { sehri:'04:50', iftar:'18:06' }, // Day 16
+  { sehri:'04:48', iftar:'18:07' }, // Day 17
+  { sehri:'04:47', iftar:'18:08' }, // Day 18
+  { sehri:'04:46', iftar:'18:09' }, // Day 19
+  { sehri:'04:45', iftar:'18:10' }, // Day 20
+  { sehri:'04:44', iftar:'18:11' }, // Day 21
+  { sehri:'04:43', iftar:'18:12' }, // Day 22
+  { sehri:'04:42', iftar:'18:13' }, // Day 23
+  { sehri:'04:41', iftar:'18:14' }, // Day 24
+  { sehri:'04:40', iftar:'18:15' }, // Day 25
+  { sehri:'04:39', iftar:'18:16' }, // Day 26
+  { sehri:'04:38', iftar:'18:17' }, // Day 27
+  { sehri:'04:37', iftar:'18:18' }, // Day 28
+  { sehri:'04:36', iftar:'18:19' }, // Day 29
+  { sehri:'04:35', iftar:'18:20' }  // Day 30
+];
+
 const DEFAULTS = {
   city:'Mirchaiya',
   ramadanStart:'2026-02-19',
